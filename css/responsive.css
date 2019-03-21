@@ -1,0 +1,58 @@
+@media screen and (max-width: 1024px) {
+    .col-7 {
+        max-width: 50%;
+        flex: 0 0 auto;
+        text-align: center;
+    }
+
+    .contact {
+        flex: 0 0 auto;
+        max-width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .row {
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .col-2, .col-3, .col-4, .col-7, .col-8 {
+        max-width: 100%;
+        padding: 0 0 10px;
+    }
+
+    .col-2 {
+        height: 125px;
+    }
+
+    .foto {
+        margin-left: -65px;
+        margin-top: -75px;
+    }
+
+    .name, .self, .info p {
+        margin: 0;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    #main {
+        padding: 20px;
+    }
+
+    h2 svg {
+        margin-right: 10px;
+    }
+
+    ul {
+        margin-left: 0;
+        padding-left: 20px;
+    }
+
+}
